@@ -12,7 +12,7 @@ LiquidCrystal_I2C display(0x3F, 16, 2);
 void setup() {
   pinMode(lampadaSala, OUTPUT);
   pinMode(lampadaCorredor, OUTPUT);
-  pinMode(ldrSala; INPUT);
+  pinMode(ldrSala, INPUT);
   pinMode(ldrCorredor, INPUT);
   pinMode(sensorSala, INPUT);
   pinMode(sensorCorredor, INPUT);
